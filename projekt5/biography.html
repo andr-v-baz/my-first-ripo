@@ -4,80 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <style>
-      .colored-button:link {
-        background-color: rgb(106, 106, 215);
-        color: rgb(37, 39, 20);
-        border: 2px;
-        padding: 10px 20px;
-        cursor: pointer;
-        border-radius: 5px;
-        text-decoration: none;
-        border: 2px solid rgb(1, 1, 1);
-      }
-
-      .colored-button:hover {
-        background-color: magenta;
-        color: rgb(255, 255, 255);
-        text-decoration: none;
-        border: 2px solid purple;
-      }
-
-      .colored-button:active {
-        background-color: yellow;
-        color: green;
-        text-decoration: none;
-        border: 2px solid rgb(83, 35, 204);
-      }
-
-      #c1:nth-child(even) {
-        background-color: rgba(6, 252, 252, 0.516);
-        color: rgb(10, 112, 83);
-      }
-      #c2:nth-child(even) {
-        background-color: rgb(71, 32, 82);
-        color: rgb(245, 128, 173);
-      }
-      #c3:nth-child(even) {
-        background-color: rgba(18, 121, 66, 0.936);
-        color: rgb(245, 247, 205);
-      }
-      #c4:nth-child(even) {
-        background-color: rgb(203, 206, 31);
-        color: rgb(98, 18, 195);
-      }
-      #c5:nth-child(even) {
-        background-color: rgba(71, 21, 72, 0.416);
-        color: rgb(70, 7, 54);
-      }
-      h1 {
-        text-align: center;
-        font-size: 22px;
-      }
-      .a1 {
-        font-style: italic;
-      }
-      h3 {
-        text-align: center;
-      }
-      p {
-        font-size: 120%;
-      }
-      h2 {
-        font-size: 180%;
-      }
-      .a2 {
-        font-weight: bold;
-      }
-      .uppercase {
-        text-transform: uppercase;
-      }
-    </style>
+    <link rel="stylesheet" href="style/style.css" />
   </head>
   <body>
-    <article id="up"><h1>Автобіографія Базюк Андріана Василівна</h1></article>
-    <a class="a1" href="index.html">Назад на головну</a>
-    <article id="content"><h3>Зміст</h3></article>
+    <article id="up">
+      <h1 class="biography-h1">Автобіографія Базюк Андріана Василівна</h1>
+    </article>
+    <a class="biography-nazad-na-golovny" href="index.html">Назад на головну</a>
+    <article id="content"><h3 class="biography-h3">Зміст</h3></article>
     <p>
       <a href="#bazik-info" class="colored-button"> Базова інформація</a>
       <a href="#childhood" class="colored-button">Дитинство</a>
@@ -87,8 +21,8 @@
     </p>
 
     <article id="bazik-info">
-      <h2>Базова інформація</h2>
-      <p id="c1">
+      <h2 class="biography-h2">Базова інформація</h2>
+      <p class="biography-p" id="c1">
         Я народилась в селі Ріп&#39;янка Калуського району, Івано-Франківської
         області. Навчалась в Ріп&#39;янському ліцеї. В п&#39;ятнадцять років
         пішла вчитись до Калуського ліцею номер десяь. Зараз навчаюсь у
@@ -97,12 +31,12 @@
         науки. Мені сімнадцять років. Я хочу стати успішним програмістом. У мене
         є молодша сестра, яка на одинадцять років молодша за мене.
       </p>
-      <a class="a2" href="#content">до змісту</a>
+      <a class="biography-do-zmisty" href="#content">до змісту</a>
     </article>
 
     <article id="childhood">
-      <h2>Дитинство</h2>
-      <p id="c2">
+      <h2 class="biography-h2">Дитинство</h2>
+      <p class="biography-p" id="c2">
         Моє дитинство було часом безтурботного щастя та веселощів. Я народився у
         маленькому містечку, де кожен знає кожного. Мої друзі та я завжди були
         разом, граючи у футбол на вулицях, обговорюючи пригоди та мріючи про
@@ -114,12 +48,12 @@
         та фантазії. Моє дитинство було наповнене незабутніми відвідуваннями до
         музеїв, парків і мандрівками в гори.
       </p>
-      <a class="a2" href="#content">до змісту</a>
+      <a class="biography-do-zmisty" href="#content">до змісту</a>
     </article>
 
     <article id="shool-years">
-      <h2>Шкільні роки</h2>
-      <p id="c3">
+      <h2 class="biography-h2">Шкільні роки</h2>
+      <p class="biography-p" id="c3">
         Мої шкільні роки були найбільшими та важливими періодами мого життя.
         Починаючи з перших класів, я відкрив для себе світ знань та дружби.
         Перший день в школі був схожий на захопливу пригоду. Всі ми завзято
@@ -130,12 +64,12 @@
         другою родиною. Ми разом вивчали уроки, грали у футбол, організовували
         дитячі вечірки та взаємно підтримували один одного.
       </p>
-      <a class="a2" href="#content">до змісту</a>
+      <a class="biography-do-zmisty" href="#content">до змісту</a>
     </article>
 
     <article id="outside-of-shool">
-      <h2>Поза школою</h2>
-      <p id="c4">
+      <h2 class="biography-h2">Поза школою</h2>
+      <p class="biography-p" id="c4">
         Час, який я провела поза школою перед вступом в університет, був
         надзвичайно цінним та насиченим періодом мого життя. Ця вільна від
         навчання ділянка часу дозволила мені відкрити для себе нові можливості,
@@ -146,12 +80,12 @@
         програмуванням та іншими інтелектуальними викликами. Поза школою, я
         активно долучилася до волонтерської діяльності.
       </p>
-      <a class="a2" href="#content">до змісту</a>
+      <a class="biography-do-zmisty" href="#content">до змісту</a>
     </article>
 
     <article id="university">
-      <h2>Університет</h2>
-      <p id="c5">
+      <h2 class="biography-h2">Університет</h2>
+      <p class="biography-p" id="c5">
         Час, який я провела в університеті, був неймовірно цінним і наповненим
         важливими враженнями, навчанням та особистим розвитком. На початку
         університетських років, я відчула себе дуже збудженою та амбіційною. Цей
@@ -163,11 +97,11 @@
         студентських груп, де мала можливість працювати над проектами, спільно з
         іншими студентами. Це розвинуло мої лідерські та комунікативні навички.
       </p>
-      <a class="a2" href="#content">до змісту</a>
+      <a class="biography-do-zmisty" href="#content">до змісту</a>
 
       <hr />
 
-      <a class="uppercase" href="#up">Уверх</a>
+      <a class="biography-uppercase" href="#up">Уверх</a>
     </article>
   </body>
 </html>
